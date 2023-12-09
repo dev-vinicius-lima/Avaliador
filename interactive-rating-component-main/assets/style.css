@@ -136,7 +136,7 @@ input:hover {
 
 
 .checked {
-    background: orange!important;
+    background: hsl(25, 97%, 53%)!important;
     color: #fff!important;
   }
 
