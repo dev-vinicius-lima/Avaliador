@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif; 
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131519;
+}
+
+.container {
+    background-color: grey;
+    display: flex;
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: #1F2631;
+    position: relative; /* Adiciona position: relative; para que a posição absoluta funcione corretamente */
+}
+
+
+.img-container {
+    background-color: #262F38;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+.rating-card > h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.rating-card > p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.button-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #262F38;
+    color: hsl(217, 12%, 63%);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+input {
+    height: 37px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+input:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* Thanks-card starts here*/
+
+
+.thanks-card {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    display: none;
+    
+}
+
+.thanks-card > h1 {
+    color: white;
+}
+
+.thanks-card > p {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+
+.container-result {
+    background-color: #262F38;
+    border-radius: 30px;
+    height: 25px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(25, 97%, 53%);
+}
+
+
+.checked {
+    background: orange!important;
+    color: #fff!important;
+  }
+
+
